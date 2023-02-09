@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    background-color:rgb(0, 0, 0);
+}
+h1{
+    text-shadow: rgba(237, 248, 206, 0.719) 1px 0px 10px;
+    color: whitesmoke;
+}
+header{
+    color: whitesmoke;
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgba(204, 44, 44, 0.664);
+}
+nav{
+    position: sticky;
+    top: 0;
+    padding-top: 15px;
+    text-align: left;
+    height: 30px;
+    background-color: rgba(204, 44, 44, 0.664);
+}
+.boton{
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 3px;
+    padding: 5px;
+    color: black;
+    margin-left:8px;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.164);
+    background-color: rgb(233, 203, 233);
+}
+#divContent{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#div1{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+#div2{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    flex-direction: column;
+}
+aside>section{
+    margin-top: 20px;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 7px;
+    padding: 20px;
+    width: 300px;
+    background-color: rgb(204, 186, 212);
+}
+article{
+    margin-top: 20px;
+    border:solid 1px;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: rgb(255, 236, 255);
+}
+article>div{
+    text-align: center;
+}
+.primera{
+    font-style: italic;
+}
+footer{
+    border: solid 1px;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(235, 182, 235);
+}
